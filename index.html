@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
 <title>Welcome to Jeopardy</title>
+<style>
+    .btn-group button {
+        background-color: dodgerblue border: 1px solid green;
+        color: red;
+        padding: 10px 24px;
+        cursor: pointer;
+        float: left;
+    }
+</style>
 
 <head>
-        <title>Welcome to Jeopardy</title>
+    <title>Welcome to Jeopardy</title>
     <style>
         body {
             background-color: green;
@@ -22,10 +31,51 @@
 </head>
 
 <body>
+    <h1>Let's Play Jeopardy</h1>
+    <br>
 
-    <h1>Hello World</h1>
-    <p></p>
 
+
+
+
+    <table>
+        <tr>
+            <td>Has most superbowl</td>
+            <input type="button" value="Answer" onclick="msg()" />
+
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <input type="button" value="Answer" onclick="country()" />
+        
+            <td>Second Country with most Endangered Animal</td>
+
+        </tr>
+    </table>
+    <br>
+
+
+    </form>
+    <div class="btn-group">
+            <button>King of Jungle</button>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <button onclick="myFunction()">correct guest</button>
+
+    <p id="gameButton"></p>
+    <script> 
+        function myFunction() {
+            document.getElementById("gameButton").innerHTML = "Lion";
+        }
+    </script>
+
+
+    <script type="text/javascript" src="jep.js"></script>
 </body>
 
 </html>
