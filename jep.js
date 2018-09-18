@@ -1,40 +1,40 @@
 function myFunction() {
-    const cat1 = prompt("America Favorite Football Team");
+    const cat1 = prompt("America Favorite Football Team",);
     if (cat1 != null) {
-        document.getElementById(demo).innerHTML =
-            "Hello " + cat1 + "! How are you today?";
+        document.getElementById("demo").innerHTML =
+            "Awesome " + cat1 + " But only if you choose Dallas Cowboys?";
     }
 };
 
-function myFunction() {
+function Caribbean() {
     const cat2 = prompt("Island has 365 beaches");
     if (cat2 != null) {
-        document.getElementById(demo2).innerHTML =
-            "Hi " + cat2 + "! Today is a good day";
+        document.getElementById("great").innerHTML =
+            "Fantastic " + cat2 + " But only if you choose Antigua";
     }
 }; 
 
-function myFunction() {
-    var cat3 = prompt("America Favorite Football Team");
+function Asia() {
+    var cat3 = prompt("African Continent with Largest Mountain");
     if (cat3 != null) {
-        document.getElementById("demo3").innerHTML =
-            "Hello " + cat1 + "! How are you today?";
+        document.getElementById("goals").innerHTML =
+            "Amazing " + cat3 + " If you have guessed South Africa?";
     }
 };
-function myFunction() {
-    var cat4 = prompt("America Favorite Football Team");
+function GA() {
+    var cat4 = prompt("Best Tech Bootcamp in ATL");
     if (cat4 != null) {
-        document.getElementById("demo4").innerHTML =
-            "Hello " + cat1 + "! How are you today?";
+        document.getElementById("focus").innerHTML =
+            "Smart reply " + cat4 + " If you said GA";
     }
 }; 
-function myFunction() {
-    var cat5 = prompt("America Favorite Football Team");
+function dreams() {
+    var cat5 = prompt("The price of not giving up");
     if (cat5 != null) {
-        document.getElementById("demo5").innerHTML =
-            "Hello " + cat1 + "! How are you today?";
+        document.getElementById("vision").innerHTML =
+            "Keep Going " + cat5 + " No matter answer stay disipline!";
     }
-} 
+};
 
 
 
