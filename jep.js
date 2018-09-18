@@ -9,7 +9,9 @@ function country() {
 var Island = () => {
     alert ("CUBA");
 }
-
+var Kenya = () => {
+    alert ("KENYA");
+}
 
 
 
